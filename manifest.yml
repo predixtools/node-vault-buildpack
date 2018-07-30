@@ -114,4 +114,11 @@ dependencies:
   cf_stacks:
   - cflinuxfs2
   - cflinuxfs3
+- name: libx11-xcb1
+  version: 1.6.2
+  uri: http://archive.ubuntu.com/ubuntu/pool/main/libx/libx11/libx11_1.6.2.orig.tar.gz
+  sha256: b93739bcd517723121f508bcaf0c213c1bae9c5eacffdca571ff0d86c30ead3e
+  cf_stacks:
+  - cflinuxfs2
+  - cflinuxfs3
 pre_package: scripts/build.sh
