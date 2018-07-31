@@ -93,7 +93,7 @@ func main() {
 	s := supply.Supplier{
 		Logfile: logfile,
 		Stager:  stager,
-		Aa: a,
+		Apt: a,
 		Yarn: &yarn.Yarn{
 			Command: &libbuildpack.Command{},
 			Log:     logger,
